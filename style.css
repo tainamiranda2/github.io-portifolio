@@ -24,6 +24,8 @@ img{
    height: 150px;
    align-items: center;
    flex-flow: column;
+    display: inline-block;
+}
 }
 header nav {float: right;}
 
