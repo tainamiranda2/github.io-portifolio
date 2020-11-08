@@ -58,9 +58,7 @@ p{
 h1, h2{
 text-align: center;
 }
-.holder img:hover{
-        opacity: 100%;
-}
+
 .holder {
     display:flexbox;
 justify-content: center;
