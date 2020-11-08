@@ -47,23 +47,42 @@ header nav ul li a:hover{
     background:rgb(218, 204, 20);
     padding: 10px;
 }
-footer{
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-   bottom: 20px;
-}
+
 a.btn.btn {
     color: #fff;
     padding: 15px;
 }
-
+p{
+    text-align: center;
+}
 h1, h2{
 text-align: center;
 }
-
+.holder img:hover{
+        opacity: 100%;
+}
 .holder {
     display:flexbox;
 justify-content: center;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center; 
+  padding: 30px;
+  width: 100%;
+   position: absolute;
+}
+footer p{
+    margin-bottom: 20px;
+    color: white;
+}
+footer #icons a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    transition: 200ms;
+}
+footer #icons a i{
+    font-size: 25px;
 }
